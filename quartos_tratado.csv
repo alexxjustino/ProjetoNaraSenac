@@ -1,0 +1,55 @@
+id_quarto,id_hotel,tipo_quarto,capacidade,valor_base,andar,vista
+001,1,Standard,2.0,320.0,1,Jardim
+002,1,Standard,2.0,320.0,2,Jardim
+003,1,Standard,2.0,320.0,3,Jardim
+004,1,Standard,2.0,320.0,4,Jardim
+005,1,Superior,3.0,480.0,5,Mar
+006,1,Superior,3.0,480.0,6,Mar
+007,1,Superior,3.0,480.0,7,Mar
+008,1,Luxo,4.0,750.0,8,Mar
+009,1,Luxo,4.0,750.0,9,Mar
+012,1,Suite Master,6.0,2200.0,12,Panorâmica
+013,2,Standard,2.0,280.0,1,Jardim
+014,2,Standard,2.0,280.0,2,Jardim
+015,2,Standard,2.0,280.0,3,Jardim
+016,2,Superior,3.0,420.0,4,Piscina
+017,2,Superior,3.0,420.0,5,Piscina
+018,2,Superior,3.0,420.0,6,Piscina
+019,2,Luxo,4.0,680.0,7,Mar
+020,2,Luxo,4.0,680.0,8,Mar
+021,2,Suite,5.0,1100.0,9,Panorâmica
+022,2,Suite,5.0,1100.0,10,Panorâmica
+023,2,Suite Master,6.0,1950.0,11,Panorâmica
+024,3,Standard,2.0,260.0,1,Jardim
+025,3,Standard,2.0,260.0,2,Jardim
+026,3,Standard,2.0,260.0,3,Jardim
+027,3,Superior,3.0,400.0,4,Piscina
+028,3,Superior,3.0,400.0,5,Piscina
+029,3,Superior,3.0,400.0,6,Piscina
+030,3,Luxo,4.0,640.0,7,Mar
+031,3,Luxo,4.0,640.0,8,Mar
+032,3,Suite,5.0,1050.0,9,Panorâmica
+033,3,Suite,5.0,1050.0,10,Panorâmica
+034,3,Suite Master,6.0,1900.0,11,Panorâmica
+035,4,Standard,2.0,350.0,1,Cidade
+036,4,Standard,2.0,350.0,2,Cidade
+037,4,Standard,2.0,350.0,3,Cidade
+038,4,Standard,2.0,350.0,4,Cidade
+039,4,Superior,3.0,520.0,5,Cidade
+040,4,Superior,3.0,520.0,6,Cidade
+041,4,Luxo,4.0,820.0,7,Mar
+042,4,Luxo,4.0,820.0,8,Mar
+043,4,Suite,5.0,1350.0,9,Panorâmica
+044,4,Suite Master,6.0,2500.0,10,Panorâmica
+045,5,Standard,2.0,420.0,1,Cidade
+046,5,Standard,2.0,420.0,2,Cidade
+047,5,Standard,2.0,420.0,3,Cidade
+048,5,Standard,2.0,420.0,4,Cidade
+049,5,Superior,3.0,620.0,5,Cidade
+050,5,Superior,3.0,620.0,6,Cidade
+051,5,Superior,3.0,620.0,7,Cidade
+052,5,Luxo,4.0,950.0,8,Cidade
+053,5,Luxo,4.0,950.0,9,Cidade
+055,5,Suite,5.0,1600.0,11,Panorâmica
+056,5,Suite,5.0,1600.0,12,Panorâmica
+057,5,Suite Master,6.0,2800.0,15,Panorâmica
