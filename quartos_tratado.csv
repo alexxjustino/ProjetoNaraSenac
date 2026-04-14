@@ -8,6 +8,8 @@ id_quarto,id_hotel,tipo_quarto,capacidade,valor_base,andar,vista
 007,1,Superior,3.0,480.0,7,Mar
 008,1,Luxo,4.0,750.0,8,Mar
 009,1,Luxo,4.0,750.0,9,Mar
+010,1,Suite Master,5.0,1200.0,10,Panorâmica
+011,1,Suite Master,5.0,1200.0,11,Panorâmica
 012,1,Suite Master,6.0,2200.0,12,Panorâmica
 013,2,Standard,2.0,280.0,1,Jardim
 014,2,Standard,2.0,280.0,2,Jardim
@@ -50,6 +52,7 @@ id_quarto,id_hotel,tipo_quarto,capacidade,valor_base,andar,vista
 051,5,Superior,3.0,620.0,7,Cidade
 052,5,Luxo,4.0,950.0,8,Cidade
 053,5,Luxo,4.0,950.0,9,Cidade
+054,5,Luxo,4.0,950.0,10,Cidade
 055,5,Suite,5.0,1600.0,11,Panorâmica
 056,5,Suite,5.0,1600.0,12,Panorâmica
 057,5,Suite Master,6.0,2800.0,15,Panorâmica
