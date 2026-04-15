@@ -15,6 +15,7 @@ Este repositório contém o **Projeto de Análise de Dados**, desenvolvido com f
 O objetivo deste projeto é simular o cenário real de um profissional de dados ao receber arquivos brutos com diversas inconsistências. O trabalho foi dividido em duas grandes etapas:
 1. **Tratamento de Dados:** Aplicação de uma metodologia rigorosa dividida em *Inspeção* (identificar problemas), *Decisão* (discutir ações) e *Correção* (aplicar os tratamentos).
 2. **Análise de dados:** Geração de estatísticas, identificação de *outliers* e criação de painéis visuais para extrair inteligência de negócios e apoiar a tomada de decisão. 
+3.  **Business Intelligence (Power BI):** Materialização da análise em um painel interativo para monitoramento de KPIs e performance de negócio.
 
 ---
 
@@ -47,6 +48,15 @@ Foram gerados gráficos de linhas e barras para monitorar:
 3. **Gargalos Operacionais:** Mapeamento das taxas de *Overbooking* por mês e por hotel, identificando as unidades que necessitam de intervenção urgente na alocação de capacidade.
 4. **Análise de Correlação:** Estudo para verificar o impacto do atendimento na nota geral do hotel, revelando que um bom atendimento, de forma isolada, não garante a satisfação total do hóspede.
 
+
+### Dashboard Executivo (Power BI)
+Com a base devidamente limpa pelo processo em Python, o arquivo `Projeto_Nara_Arthur.pbix` consolida a inteligência do negócio em um ambiente interativo.
+**Principais funcionalidades do Dashboard:**
+* **Visão Geral de Performance:** Monitoramento dinâmico de reservas confirmadas vs. canceladas.
+* **Análise de Capacidade:** Identificação visual de unidades com gargalos de *Overbooking*.
+* **Filtros Inteligentes:** Segmentação por Unidade (RJ, SP, Recife, etc.), período temporal e canais de reserva (Booking, Site, Expedia).
+* **Monitoramento de Satisfação:** Painel de avaliações integrado para acompanhamento da percepção do cliente em tempo real.
+
 ---
 
 ## Resumo Executivo e Insights
@@ -66,3 +76,5 @@ Foram gerados gráficos de linhas e barras para monitorar:
   * `numpy` (Operações Matemáticas)
   * `matplotlib` & `seaborn` (Visualização de Dados)
   * `re` (Expressões Regulares)
+* **Business Intelligence:** Power BI Desktop (`.pbix`)
+
