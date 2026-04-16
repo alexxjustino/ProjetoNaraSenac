@@ -175,3 +175,24 @@ WHERE reservas.status_reserva = 'Overbooking'
 ORDER BY mes_ano
 DESC;
 
+# C6 - RESERVAS CANCELADAS COM MENOS DE 7 DIAS COM HOTEL E CANAL DE ORIGEM
+# não temos a data de cancelamento, portanto não é possível fazer a consulta.
+# consultei o volume de reservas canceladas por hotel
+SELECT hoteis.nome_hotel, COUNT(reservas.status_reserva) AS reservas_canceladas
+FROM reservas
+JOIN hoteis ON reservas.id_hotel = hoteis.id_hotel
+WHERE reservas.status_reserva = 'Cancelada'
+GROUP BY hoteis.nome_hotel
+ORDER BY reservas_canceladas
+DESC;
+
+# C7 - HOSPEDES COM HISTÓRICO DE NO-SHOW
+SELECT hospedes.nome, COUNT(reservas.status_reserva) AS hosp_noshow
+FROM reservas
+JOIN hospedes ON reservas.id_hospede = hospedes.id_hospede
+WHERE reservas.status_reserva = 'No-show'
+GROUP BY hospedes.nome
+ORDER BY hosp_noshow
+DESC;
+
+
